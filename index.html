@@ -47,4 +47,134 @@
         nav a {
             color: white;
             margin: 0 20px;
-            text
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee');
+            background-size: cover;
+            background-position: center;
+            height: 480px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 6px black;
+            padding: 20px;
+            font-size: 34px;
+            line-height: 1.4;
+        }
+
+        /* Section */
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            color: var(--azul-oscuro);
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        p, li {
+            font-size: 20px;
+            line-height: 1.7;
+        }
+
+        /* Image Blocks */
+        .image-block {
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .image-block img {
+            width: 100%;
+            border-radius: 12px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--azul-oscuro);
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Kayetano</h1>
+    <p>Family Wealth Firm</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#sobre">Sobre Nosotros</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<div class="hero" id="inicio">
+    Construyendo riqueza familiar con estrategia, claridad y propósito.
+</div>
+
+<section id="sobre">
+    <h2>Sobre Nosotros</h2>
+    <p>
+        Kayetano es una firma dedicada a guiar familias hacia decisiones financieras 
+        inteligentes, simples y estratégicas. Creemos en la educación, la protección 
+        y el crecimiento a largo plazo, siempre alineado con los valores familiares.
+    </p>
+</section>
+
+<section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+        <li>Planificación financiera familiar</li>
+        <li>Estrategias de protección y ahorro</li>
+        <li>Construcción de riqueza a largo plazo</li>
+        <li>Educación financiera personalizada</li>
+    </ul>
+</section>
+
+<section id="galeria">
+    <h2>Galería</h2>
+
+    <div class="image-block">
+        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Paisaje financiero">
+    </div>
+
+    <div class="image-block">
+        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429" alt="Crecimiento financiero">
+    </div>
+
+    <div class="image-block">
+        <img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d" alt="Familias y futuro">
+    </div>
+
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>Para consultas o información:</p>
+    <p><strong>Email:</strong> contacto@kayetano.com</p>
+    <p><strong>Teléfono:</strong> (000) 000-0000</p>
+</section>
+
+<footer>
+    © 2026 Kayetano | Family Wealth Firm — Todos los derechos reservados
+</footer>
+
+</body>
+</html>
